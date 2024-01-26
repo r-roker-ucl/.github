@@ -1,3 +1,4 @@
+---
 name: Story/Task/Issue
 description: Create a new story or task
 body:
@@ -6,7 +7,9 @@ body:
     attributes:
       label: Definition of Done / Acceptance Criteria
       description: What can someone see/do when this task is done.
-      placeholder: The export data is available in the xxx format, including age of the patient at the time of imaging...
+      placeholder: >-
+        The export data is available in the xxx format,
+        including age of the patient at the time of imaging...
     validations:
       required: true
   - type: textarea
@@ -29,7 +32,9 @@ body:
     id: dependencies
     attributes:
       label: Dependencies
-      description: Enter the github issue number that the requirement is dependent on, in the form `#1`
+      description: >-
+        Enter the github issue number that the
+        requirement is dependent on, in the form `#1`
       placeholder: "#1"
     validations:
       required: false
