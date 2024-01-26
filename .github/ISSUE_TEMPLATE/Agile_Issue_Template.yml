@@ -1,3 +1,5 @@
+name: Story/Task/Issue
+description: Create a new story or task
 body:
   - type: textarea
     id: definition_of_done
@@ -29,5 +31,13 @@ body:
       label: Dependencies
       description: Enter the github issue number that the requirement is dependent on, in the form `#1`
       placeholder: "#1"
+    validations:
+      required: false
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Comments
+      description: Any other considerations or comments
+      placeholder: More details or other comments...
     validations:
       required: false
