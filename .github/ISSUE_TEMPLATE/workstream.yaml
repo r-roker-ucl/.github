@@ -8,8 +8,8 @@ body:
       label: description
       description: A short description of the workstream
       placeholder: Description
-      validations:
-        required: false
+    validations:
+      required: false
   - type: textarea
     id: child_issues
     attributes:
