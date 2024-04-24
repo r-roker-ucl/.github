@@ -15,8 +15,6 @@ body:
     attributes:
       label: Child issues
       description: What issues need to be completed for this issue to be done
-      placeholder: >-
-        The export data is available in the xxx format,
-        including age of the patient at the time of imaging...
+      placeholder: Please use the task list option to include a list of child issues
     validations:
       required: false
